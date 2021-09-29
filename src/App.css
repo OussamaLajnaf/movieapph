@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-image: url(https://wallpaperaccess.com/full/533111.jpg);
 }
 
 .App-logo {
@@ -35,4 +36,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.movie-card {
+  border-radius: 6px;
+ background-image: url(https://i.gifer.com/2uty.gif);
+  position: relative;
+  margin: 1rem;
+  width: 350px;
+  box-shadow: 0px 8px 20px 0px rgb(0 0 0 / 5%);
+}
+.Modale {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkLPoXGqUGuIAeZF6Y2Zt849qT6SI73AwbTA&usqp=CAU);
+  width: 900px;
+  height: 100px;
+  color: rgb(15, 1, 1);
+
+}
+.add {
+  width: 200px;
+  height: 50px;
+  background-color: transparent;
+  background-image: url(https://www.wallpapersun.com/wp-content/uploads/2021/05/Pink-Wallpaper-2-715x1271.jpg);
+}
+.footer{
+  background-image: url(https://i.gifer.com/4A9v.gif);   color: #F4F4F9;  
+   font-family: monospace;   font-weight: 500;   letter-spacing: 2.5px;   
+   text-align: center;   padding-bottom: 1%;   padding-top: 8%;
+   margin-top: 40px;
 }
